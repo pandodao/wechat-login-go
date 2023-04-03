@@ -1,6 +1,6 @@
 # wechat-login-go
 
-A Simple Go package for [WeChat OAuth](https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/Wechat_webpage_authorization.html)
+A simple Go package for [WeChat OAuth](https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/Wechat_webpage_authorization.html)
 
 一个简单的 Go 包，用于微信网页授权。
 
@@ -31,7 +31,7 @@ https://open.weixin.qq.com/connect/oauth2/authorize?appid=APPID&redirect_uri=RED
 ```
 
 - `APPID` is the `AppID` of your test account
-- `REDIRECT_URI` is a URI, which will be called by WeChat after user grant access to your app. Make sure the URI's domain is in the "授权回调页面域名" list.
+- `REDIRECT_URI` is an URI, which will be called by WeChat after user grant access to your app. Make sure the URI's domain is in the "授权回调页面域名" list.
 
 Wechat will redirect user to the `REDIRECT_URI` with a `code` parameter, which is used to get the access token.
 
